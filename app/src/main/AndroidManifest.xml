@@ -20,7 +20,7 @@
             android:value="检测xposed是否正常运行" />
         <meta-data
             android:name="xposedminversion"
-            android:value="82" />
+            android:value="50" />
 
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -2,11 +2,11 @@ package com.ssrj.xposedcheck;
 
 import android.util.Log;
 
-import de.robv.android.xposed.IXposedHookLoadPackage;
-import de.robv.android.xposed.XC_MethodReplacement;
-import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
+import com.gentcent.zzk.xped.IXposedHookLoadPackage;
+import com.gentcent.zzk.xped.XC_MethodReplacement;
+import com.gentcent.zzk.xped.callbacks.XC_LoadPackage.LoadPackageParam;
 
-import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
+import static com.gentcent.zzk.xped.XposedHelpers.findAndHookMethod;
 
 /**
  * @author zuozhi
